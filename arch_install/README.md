@@ -27,9 +27,10 @@
 	locale-gen  
 11. Назвать себя в интернете `/etc/hostname` : `alex-rog14`  
 12. Добавить сопоставления `/etc/hosts`  
+```
 	127.0.0.1        localhost  
 	::1              localhost  
-	
+```	
 13. Делаем пароль рута  
 	passwd  
 14.  
