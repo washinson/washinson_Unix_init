@@ -6,7 +6,7 @@
 2. Установить amdgpu
 ```
     sudo pacman -S mesa lib32-mesa xf86-video-amdgpu amdvlk lib32-amdvlk libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
-    vim /
+    sudo vim /etc/X11/xorg.conf.d/20-amdgpu.conf
 ```
 Написать 
 ```
