@@ -22,6 +22,8 @@
 5. Смонтировать диски  
 ```
     mount /dev/root_partition /mnt
+    mkdir -p /mnt/boot/efi
+    mount /dev/efi_partition /mnt/boot/efi
     swapon /dev/swap_partition
 ```
 6. Установить необходимые пакеты  
@@ -60,8 +62,7 @@
 ```  
 14. Устанавливаем старый добрый grub  
 ```
-    mount /dev/efi_partition /mnt/boot/efi
-    grub-install --target=x86_64-efi --efi-directory=/mnt/boot/efi --bootloader-id=GRUB
+    grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
     grub-mkconfig -o /boot/grub/grub.cfg
 ``` 
 Если не видит винду, добавить в `/etc/default/grub`
