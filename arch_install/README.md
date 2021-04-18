@@ -96,7 +96,7 @@
     pacman -S plasma-meta
     systemctl enable sddm.service
 ``` 
-Шрифты предпочитаю `noto`, `proton-vlc`  
+Шрифты предпочитаю `noto`, `proton-gstreamer`  
 Ребутаемся  
 
 6. Настраиваем pipewire
