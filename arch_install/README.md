@@ -45,7 +45,7 @@
     hwclock --systohc
 ```
 10. Настраиваем язык  
-Открываем `en_US.UTF-8` и `ru_RU.UTF-8` в `/etc/locale.gen`
+Открываем `en_US.UTF-8` и `ru_RU.UTF-8` в `/etc/locale.gen`  
 Создаем `/etc/locale.conf` с контентом `LANG=en_US.UTF-8`
 ```    
     locale-gen
