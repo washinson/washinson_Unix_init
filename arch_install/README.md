@@ -73,9 +73,8 @@
 .....
 1. Создаем пользователя
 ```
-    useradd -m -s /usr/bin/zsh alex
+    useradd -m -g users -G wheel -s /usr/bin/zsh alex
     passwd alex
-    usermod -aG wheel alex
     visudo
 ```
 Расскоментировать `%wheel ALL=(ALL) ALL`  
@@ -87,6 +86,14 @@
 ``` 
 Шрифты предпочитаю `noto`, `proton-vlc`  
 Ребутаемся  
+3. Устанавливаем xorg
+```
+    sudo pacman -S xorg xorg-xinit xorg-server
+```
+4. Настраиваем pipewire
+```
+    sudo pacman -S pipewire pipewire-pulse
+```
 4. Устанавливаем софт
 ```
     sudo pacman -S konsole libreoffice-still
