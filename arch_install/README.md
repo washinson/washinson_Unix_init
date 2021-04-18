@@ -55,7 +55,7 @@
 ```
     127.0.0.1        localhost
     ::1              localhost
-```	
+```	 
 13. Делаем пароль рута  
 ```
     passwd
@@ -76,7 +76,7 @@
 ```
     useradd -m -g users -G wheel -s /usr/bin/zsh alex
     passwd alex
-    visudo
+    EDITOR=vim visudo
 ```
 Расскоментировать `%wheel ALL=(ALL) ALL`  
 2. Добавляем `[multilib]`, раскомментировав его в `/etc/pacman.conf`  
