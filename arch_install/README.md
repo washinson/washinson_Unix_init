@@ -114,3 +114,9 @@
     systemctl enable bluetooth
     systemctl start bluetooth
 ```
+9. Устанавливаем yay
+```
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si
+```
