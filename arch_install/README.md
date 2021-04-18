@@ -140,4 +140,4 @@
       libreoffice-still \ # Офис
       dolphin \ # Файловый менеджер
 ```
-TODO: Настройка темы grub и fusuma
+TODO: Настройка темы grub, ssh и fusuma
