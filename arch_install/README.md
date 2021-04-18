@@ -93,7 +93,7 @@
 ```
 5. Устанавливаем KDE 
 ```
-    pacman -S plasma-meta
+    pacman -S plasma-meta packagekit
     systemctl enable NetworkManager
     systemctl enable sddm
 ``` 
