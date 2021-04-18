@@ -120,3 +120,22 @@
     cd yay
     makepkg -si
 ```
+10. Устанавливаем до пакеты
+```
+    sudo pacman -S wget \ # позволяет выполнять HTTP-запросы, скачивать файлы
+      curl \ # делает то же самое, что и предыдущий
+      ttf-droid \ # шрифт по-умолчанию для VScode
+      firefox \ # firefox
+      gparted \ # графическая оболочка для разметки дисков
+      htop \ # показывает запущенные процессы, загрузку cpu и потребление памяти
+      smartmontools \ # утилита для проверки состояния SSD
+      telegram-desktop \ # лучший мессенджер
+      texmaker \ # редактор LaTex, генерирует PDF
+      qbittorrent \ # торрент клиент
+      smplayer \ # видео плеер
+      jq \ # Утилита для работы с JSON
+      httpie \ # лучшая замена curl с подсветкой вывода
+      code \ # visual studio code
+      yandex-browser-beta \ # Yandex browser
+      libreoffice-still \ # Офис
+```
