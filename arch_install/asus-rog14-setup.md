@@ -5,7 +5,7 @@
 Ребутнуться  
 2. Установить amdgpu
 ```
-    sudo pacman -S mesa lib32-mesa xf86-video-amdgpu amdvlk lib32-amdvlk
+    sudo pacman -S mesa lib32-mesa xf86-video-amdgpu amdvlk lib32-amdvlk libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
 ```
 4. Установить asus-nb-ctrl-git  
 ```
