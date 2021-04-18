@@ -97,13 +97,13 @@
     systemctl enable sddm.service
 ``` 
 Шрифты предпочитаю `noto`, `proton-gstreamer`  
+6. Устанавливаем консоль
+```
+    pacman -S konsole
+```
 Ребутаемся  
 
-6. Настраиваем pipewire
+7. Настраиваем pipewire
 ```
     sudo pacman -S pipewire pipewire-pulse
-```
-7. Устанавливаем софт
-```
-    sudo pacman -S konsole libreoffice-still
 ```
