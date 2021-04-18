@@ -3,7 +3,11 @@
     sudo pacman -S nvidia
 ```
 Ребутнуться  
-2. Установить asus-nb-ctrl-git  
+2. Установить amdgpu
+```
+    sudo pacman -S mesa lib32-mesa xf86-video-amdgpu amdvlk lib32-amdvlk
+```
+4. Установить asus-nb-ctrl-git  
 ```
     yay -S asus-nb-ctrl-git
     systemctl daemon-reload && systemctl restart asusd
