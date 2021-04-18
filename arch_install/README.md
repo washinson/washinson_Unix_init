@@ -26,7 +26,7 @@
 ```
 6. Установить необходимые пакеты  
 ```
-    pacstrap /mnt base base-devel linux linux-firmware iproute2 dhcpcd sudo nano vim man man-db man-pages texinfo iwd grub efibootmgr amd-ucode os-prober zsh
+    pacstrap /mnt base base-devel linux linux-firmware linux-headers iproute2 dhcpcd sudo nano vim man man-db man-pages texinfo iwd grub efibootmgr amd-ucode os-prober zsh ntfs-3g exfat-utils iw wpa_supplicant 
 ```
 7. Сгенерировать fstab  
 ```
