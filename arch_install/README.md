@@ -79,7 +79,7 @@
     visudo
 ```
 Расскоментировать `%wheel ALL=(ALL) ALL`  
-2. Добавляем `[multilib]`, раскомментировав его в `/etc/pacman.conf`
+2. Добавляем `[multilib]`, раскомментировав его в `/etc/pacman.conf`  
 3. Устанавливаем KDE 
 ```
     pacman -S plasma-meta
