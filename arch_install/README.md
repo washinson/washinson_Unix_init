@@ -106,7 +106,7 @@
 
 7. Настраиваем pipewire
 ```
-    sudo pacman -S pipewire pipewire-pulse
+    sudo pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack
 ```
 8. Настраиваем bluetooth
 ```
