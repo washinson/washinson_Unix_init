@@ -78,15 +78,15 @@
     usermod -aG wheel alex
     visudo
 ```
-Расскоментировать `%wheel ALL=(ALL) ALL`
+Расскоментировать `%wheel ALL=(ALL) ALL`  
 2. Добавляем `[multilib]`, раскомментировав его в `/etc/pacman.conf`
 3. Устанавливаем KDE 
 ```
     pacman -S plasma-meta
     systemctl enable sddm.service
 ``` 
-Шрифты предпочитаю `noto`, `proton-vlc`
-Ребутаемся
+Шрифты предпочитаю `noto`, `proton-vlc`  
+Ребутаемся  
 4. Устанавливаем софт
 ```
     sudo pacman -S konsole libreoffice-still
