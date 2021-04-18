@@ -1,13 +1,17 @@
 1. Установить nvidia драйвер  
 ```
-    sudo pacman -S nvidia
+    sudo pacman -S nvidia nvidia-prime nvidia-settings
 ```
-Ребутнуться  
 2. Установить amdgpu
 ```
     sudo pacman -S mesa lib32-mesa xf86-video-amdgpu amdvlk lib32-amdvlk libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
     sudo vim /etc/X11/xorg.conf.d/20-amdgpu.conf
 ```
+3. Скорее всего удалить open source драйвер
+```
+    pacman -Rdd xf86-video-nouveau xf86-video-amdgpu
+```
+Ребутнуться  
 Написать 
 ```
 Section "Device"
