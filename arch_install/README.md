@@ -94,7 +94,8 @@
 5. Устанавливаем KDE 
 ```
     pacman -S plasma-meta
-    systemctl enable sddm.service
+    systemctl enable NetworkManager
+    systemctl enable sddm
 ``` 
 Шрифты предпочитаю `noto`, `proton-gstreamer`  
 6. Устанавливаем консоль
