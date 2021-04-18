@@ -80,22 +80,30 @@
 ```
 Расскоментировать `%wheel ALL=(ALL) ALL`  
 2. Добавляем `[multilib]`, раскомментировав его в `/etc/pacman.conf`  
-3. Устанавливаем KDE 
+```
+    pacman -Sy
+```
+3. Устанавливаем xorg
+```
+    sudo pacman -S xorg xorg-xinit xorg-server
+```
+4. Выходим из root
+```
+    exit
+```
+5. Устанавливаем KDE 
 ```
     pacman -S plasma-meta
     systemctl enable sddm.service
 ``` 
 Шрифты предпочитаю `noto`, `proton-vlc`  
 Ребутаемся  
-3. Устанавливаем xorg
-```
-    sudo pacman -S xorg xorg-xinit xorg-server
-```
-4. Настраиваем pipewire
+
+6. Настраиваем pipewire
 ```
     sudo pacman -S pipewire pipewire-pulse
 ```
-4. Устанавливаем софт
+7. Устанавливаем софт
 ```
     sudo pacman -S konsole libreoffice-still
 ```
