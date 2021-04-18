@@ -138,4 +138,5 @@
       code \ # visual studio code
       yandex-browser-beta \ # Yandex browser
       libreoffice-still \ # Офис
+      dolphin \ # Файловый менеджер
 ```
