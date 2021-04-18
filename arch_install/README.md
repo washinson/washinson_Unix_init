@@ -108,3 +108,9 @@
 ```
     sudo pacman -S pipewire pipewire-pulse
 ```
+8. Настраиваем bluetooth
+```
+    sudo pacman -S bluez bluez-utils
+    systemctl enable bluetooth
+    systemctl start bluetooth
+```
