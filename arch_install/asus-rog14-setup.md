@@ -6,6 +6,7 @@
 2. Установить asus-nb-ctrl-git  
 ```
     yay -S asus-nb-ctrl-git
+    systemctl daemon-reload && systemctl restart asusd
 ```
 3. Настроить его
 ```
