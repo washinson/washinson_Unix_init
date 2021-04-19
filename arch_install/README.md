@@ -139,5 +139,6 @@
       yandex-browser-beta \ # Yandex browser
       libreoffice-still \ # Офис
       dolphin \ # Файловый менеджер
+      ark \ # Менеджер архивов
 ```
 TODO: Настройка темы grub, ssh и fusuma
