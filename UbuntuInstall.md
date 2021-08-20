@@ -15,3 +15,37 @@ reboot
 sudo apt install sddm-theme-breeze
 -- install sddm theme --
 ```
+
+```
+sudo apt install wget curl firefox gparted htop smartmontools telegram-desktop texmaker qbittorrent smplayer jq httpie libreoffice dolphin ark android-tools-adb android-tools-fastboot cmake gcc gettext git grep gzip iproute2 iw openjdk-11-jdk openjdk-8-jdk kcalc konsole make nano okular openvpn python3 python3-pip rar kde-spectacle sudo vim vlc wine wpasupplicant xdotool libinput-tools ruby zsh
+```
+
+```
+sudo gem install fusuma
+echo 'swipe:
+  3:
+    left:
+      #workspace: 'next'
+      #command: 'xdotool key super+period' # History forward
+      sendkey: "LEFTMETA+dot"
+    right:
+      #workspace: 'prev'
+      #command: 'xdotool key super+comma' # History back
+      sendkey: "LEFTMETA+comma"
+    up:
+      command: 'xdotool key control+F9'
+    down:
+      command: 'xdotool key control+F9'
+
+rotate:
+  3:
+    clockwise:
+      command: 'xdotool key XF86MonBrightnessUp' # Brightness up
+    counterclockwise:
+      command: 'xdotool key XF86MonBrightnessDown' # Brightness down' > ~/.config/fusuma/config.yml
+```
+
+Manually install
+```
+code, idea, yandex-browser-beta, fusuma, zoom
+```
