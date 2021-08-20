@@ -17,12 +17,20 @@ sudo apt install sddm-theme-breeze
 ```
 
 ```
-sudo apt install wget curl firefox gparted htop smartmontools telegram-desktop texmaker qbittorrent smplayer jq httpie libreoffice dolphin ark android-tools-adb android-tools-fastboot cmake gcc gettext git grep gzip iproute2 iw openjdk-11-jdk openjdk-8-jdk kcalc konsole make nano okular openvpn python3 python3-pip rar kde-spectacle sudo vim vlc wine wpasupplicant xdotool libinput-tools ruby zsh
+sudo apt install wget curl firefox gparted htop smartmontools telegram-desktop texmaker qbittorrent smplayer jq httpie libreoffice dolphin ark android-tools-adb android-tools-fastboot cmake gcc gettext git grep gzip iproute2 iw openjdk-11-jdk openjdk-8-jdk kcalc konsole make nano okular openvpn python3 python3-pip rar kde-spectacle sudo vim vlc wine wpasupplicant xdotool libinput-tools ruby zsh kate
 ```
 
 ```
+reboot
+```   
+
+```
 sudo gem install fusuma
-echo 'swipe:
+mkdir ~/.config/fusuma
+```
+Copy to ~/.config/fusuma/config.yml
+```
+swipe:
   3:
     left:
       #workspace: 'next'
@@ -42,10 +50,16 @@ rotate:
     clockwise:
       command: 'xdotool key XF86MonBrightnessUp' # Brightness up
     counterclockwise:
-      command: 'xdotool key XF86MonBrightnessDown' # Brightness down' > ~/.config/fusuma/config.yml
+      command: 'xdotool key XF86MonBrightnessDown' # Brightness down
 ```
+
+Setting shortcuts
+```
+wget https://raw.githubusercontent.com/washinson/washinson_Unix_init/main/scheme.kksrc -O scheme.kksrc
+```
+And import it
 
 Manually install
 ```
-code, idea, yandex-browser-beta, fusuma, zoom
+code, idea, yandex-browser-beta, zoom
 ```
