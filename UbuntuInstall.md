@@ -59,6 +59,13 @@ wget https://raw.githubusercontent.com/washinson/washinson_Unix_init/main/scheme
 ```
 And import it
 
+setting zsh https://github.com/washinson/washinson_Unix_init/blob/main/setting_zsh.sh
+```
+wget https://raw.githubusercontent.com/washinson/washinson_Unix_init/main/setting_zsh.sh -O setting_zsh.sh
+./setting_zsh.sh && rm setting_zsh.sh
+```
+
+
 Manually install
 ```
 code, idea, yandex-browser-beta, zoom
